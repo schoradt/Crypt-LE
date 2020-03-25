@@ -46,8 +46,9 @@ clean:
 	dh_testroot
 
 	# Add here commands to clean up after the build process.
-	if [ -e Makefile ]; then $(MAKE) -i distclean; fi
+	if [ -e Makefile ]; then $(MAKE) -i clean; fi
 	rm -f MANIFEST
+	rm -f Makefile.old
 
 	dh_clean configure-stamp build-stamp install-stamp
 

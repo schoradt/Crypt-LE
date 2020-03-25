@@ -7,6 +7,6 @@ Standards-Version: 3.6.1
 
 Package: libcrypt-le-perl
 Architecture: all
-Depends: ${perl:Depends}
+Depends: ${perl:Depends}, libconvert-asn1-perl, libcrypt-openssl-bignum-perl, libcrypt-openssl-rsa-perl, libjson-maybexs-perl, liblog-log4perl-perl
 Suggests: 
 Description: Let's encrypt in perl
