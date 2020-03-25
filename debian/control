@@ -1,0 +1,12 @@
+Source: libcrypt-le-perl
+Section: perl
+Priority: optional
+Maintainer: Sven Schoradt <schoradt@netztierpfleger.de>
+Build-Depends: debhelper (>> 4), perl (>= 5.6.0-17), make, gcc, libssl-dev, libnet-ssleay-perl
+Standards-Version: 3.6.1
+
+Package: libcrypt-le-perl
+Architecture: all
+Depends: ${perl:Depends}
+Suggests: 
+Description: Let's encrypt in perl

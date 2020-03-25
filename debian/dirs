@@ -1,0 +1,7 @@
+usr/lib/perl5
+usr/share/perl5/Crypt
+usr/share/perl5/Crypt/LE
+usr/share/perl5/Crypt/LE/Challenge
+usr/share/perl5/Crypt/LE/Complete
+usr/share/man/man3
+usr/share/doc/libcrypt-le-perl

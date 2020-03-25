@@ -1,0 +1,6 @@
+libcrypt-le-perl (0.35-1) stable; urgency=low
+
+   * initial debianize
+
+ -- Sven Schoradt <schoradt@netztierpfleger.de>  Wed, 25 Mar 2020 13:49:16 +0100
+
